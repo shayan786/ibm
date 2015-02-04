@@ -128,7 +128,7 @@
 }
 
 @media screen and (max-width: : 991px) {
-	#locations form #location {
-		width: 100%;
+	.carousel .item {
+		height: 400px !important;
 	}
 }
