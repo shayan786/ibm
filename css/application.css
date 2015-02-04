@@ -139,6 +139,6 @@
 	}
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		margin-top: 5px;
+		margin-top: 5px !important;
 	}
 }
