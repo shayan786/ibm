@@ -39,8 +39,9 @@ function callback(results, status) {
 
       var name = place.name;
       var address = place.formatted_address;
+      var map_link = '<a href="http://maps.google.com/maps?q='+address.replace(/ /g,'+')+'" target="_blank">(map)</a>';
 
-      $('#locations table tbody').append('<tr class="text-left"><td>'+(i+1)+'</td><td>'+name+'</td><td>'+address+'</td></tr>');
+      $('#locations table tbody').append('<tr class="text-left"><td>'+(i+1)+'</td><td>'+name+'</td><td>'+address+' '+map_link+'</td></tr>');
     }
 
     $('#locations #begin_search').hide();

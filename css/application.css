@@ -134,6 +134,10 @@
 		height: 400px !important;
 	}
 
+	.carousel .item .testimonial {
+		font-size: 1.4em;
+	}
+
 	.navbar-default .navbar-collapse {
 		border: none !important;
 	}
