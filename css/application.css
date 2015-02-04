@@ -136,9 +136,6 @@
 
 	.navbar .collapse ul {
 		padding-top: 0px !important;
-	}
-
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		margin-top: 5px !important;
 	}
 }
