@@ -129,13 +129,16 @@
 	content: none !important;
 }
 
-@media screen and (max-width: : 991px) {
+@media screen and (max-width: 780px) {
 	.carousel .item {
 		height: 400px !important;
 	}
 
+	.navbar-default .navbar-collapse {
+		border: none !important;
+	}
+
 	.navbar .collapse ul {
 		padding-top: 0px !important;
-		margin-top: 5px !important;
 	}
 }
