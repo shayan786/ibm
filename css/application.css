@@ -9,9 +9,11 @@
 	padding-top: 5px;
 }
 
-.navbar .navbar-brand img {
-	margin-top: -7px;
-	width: 120px;
+.navbar .navbar-brand {
+	background: url('../img/cf_logo.png') center center no-repeat;
+	background-size: contain !important;
+	width: 165px;
+	margin-top: 5px;
 }
 
 .navbar-toggle {
